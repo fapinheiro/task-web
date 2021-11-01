@@ -1,0 +1,4 @@
+<div *ngFor="let item of items; let i = index" class="item" (click)="onItemClicked(i, item)">
+    <input id="item.id" type="checkbox" [checked]="item.done">
+    <label for="item.id" [class.riscado]="item.done">{{item.name}}</label>
+</div>

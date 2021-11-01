@@ -1,0 +1,26 @@
+.container {
+    background-color: #17181f;
+    color: #797a81;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    .area {
+        margin: auto;
+        max-width: 980px;
+        padding: 10px;
+        
+        .header {
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            text-align: center;
+            border-bottom: 1px solid #444;
+            padding-bottom: 20px;
+            font-size: 2rem;
+        }
+    }
+
+}

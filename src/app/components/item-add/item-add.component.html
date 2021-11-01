@@ -1,0 +1,6 @@
+<form (ngSubmit)="onSubmit()">
+    <div class="add">
+        <span class="addButton" (click)="onAddTask()">+</span>
+        <input type="text" placeholder="Adicionar uma tarefa" [(ngModel)]="inputTaskValue" name="inputTask">
+    </div>
+</form>
